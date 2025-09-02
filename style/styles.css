@@ -1,14 +1,27 @@
+:root { /* Pseudo elemento es decir no existen en el HTML(custom properties)*/
+ --Blanco: #ffffff; 
+ --Oscuro: #212121;
+ --primario: #ffc107;
+ --secundario: #0097a7;
+ --gris: #757575;
+
+
+}
+
 html {
     font-size: 62.5%;
 }
 body{
     font-size: 16px;/* 1 rem = 10px */
-}
-h1 {
+} 
+.titulo{
     text-align: center;
-    font-size: 3.8rem;
-        
+    font-size: 3.8rem ;
+    color: var(--primario);
 }
-span {
+
+.titulo span {
     font-size: 2rem;
 }
+ 
+
